@@ -53,9 +53,9 @@ public class Main extends JFrame implements MouseListener
         setSize(new Dimension(1800, 2000));
         try
         {
-            BufferedImage img = ImageIO.read(new File("C://Users//ryans//Documents//Crazy 8s Algorithm//assets//imgs//deck of heart suited cards.jpg"));
+            BufferedImage img = ImageIO.read(new File(".//assets//imgs//deck of heart suited cards.jpg"));
             setIconImage(img);
-            cardImages = ImageIO.read(new File("C://Users//ryans//Documents//Crazy 8s Algorithm//assets//imgs//Great work today.png"));
+            cardImages = ImageIO.read(new File(".//assets//imgs//Great work today.png"));
         }
         catch(Exception e)
         {
